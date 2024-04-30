@@ -98,7 +98,7 @@ h3{
 
 main{
     background: #000;
-    background-image: url(/luces\ 1.png);
+    background-image: url(./luces.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
