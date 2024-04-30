@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitacion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="body.css">
+    <link href="https://fonts.googleapis.com/css2?family=Geostar+Fill&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="title">Invitación a mis 60</h1>
+    </header>
+    <main>
+        <h2 class="sub__title">Shh... es una sorpresa.</h2>
+        <h3 class="desc">Tematica</h3>
+        <img src="80s.png" alt="años 80">
+        <h3 class="sub__desc">Te agradeceriamos que llenes este formulario para organizarnos mejor.</h3>
+        <form class="form" action="procesar_formulario.php" method="POST">
+            <div class="form-group">
+                <input type="text" class="name__control" id="name" placeholder=" " required>
+                <label for="name" class="floating__label">Nombre y apellido:</label>
+            </div>
+            <div class="form-group">
+            <label for="mensaje" class="mensaje_control">Mensaje para el cumpleañero:</label>
+            <textarea class="text__control" id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+        </div>
+
+            <p class="text__asist">Confirma tu asistencia</p>
+            <div class="respuesta">
+                <div class="si">
+            <input type="radio" id="regalo_si" name="regalo" value="si" required>
+            <label for="regalo_si">Sí</label>
+            </div>
+            <div class="no">
+                <input type="radio" id="regalo_no" name="regalo" value="no">
+                <label for="regalo_no">No</label>
+            </div>
+        </div>
+            <p class="text__disfraz">Irás caracterizado/disfrazado</p>
+            <div class="respuesta1">
+                <div class="si">
+            <input type="radio" id="rifas_si" name="rifas" value="si" required>
+            <label for="rifas_si">Sí</label>
+            </div>
+            <div class="no">
+                <input type="radio" id="rifas_no" name="rifas" value="no">
+                <label for="rifas_no">No</label>
+            </div>
+            </div>
+            <p class="aclaracion">(en caso de marcar No, nosotros nos ofrecemos pintarte el cabello con pintura en aerosol vegetal)</p>
+            <p class="text__drink">Llevarás una bebida para compartir</p>
+            <div class="respuesta1">
+                <div class="si">
+                    <input type="radio" id="tarjeta_si" name="tarjeta" value="si" required>
+                    <label for="tarjeta_si">Sí</label>
+                </div>
+                <div class="no">            
+                    <input type="radio" id="tarjeta_no" name="tarjeta" value="no">
+                    <label for="tarjeta_no">No</label>
+                </div>
+            </div>
+            <p class="aclaracion">(en caso de marcar No, esto nos sirve para ver el recuento de bebidas)</p>
+            <div class="btn">            
+                <button class="submit" type="submit">Enviar</button>
+            </div>
+        </form>
+        <div class="recorder">
+                <img  class="arrow_rigth" src="/arrowrigth.png" alt="flecha derecha">
+            <p class="no__children">Te recordamos que es SIN NIÑOS gracias</p>
+            <img class="arrow_left" src="/arrowleft.png" alt="flecha izquierda">
+        </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+.title,.sub__title{
+    font-family: "Geostar Fill", serif;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    padding: 36px 0;
+}
+.sub__title{
+    padding: 30px 0;
+}
+.desc{
+    padding: 0 0 10px 0;
+    font-size: 26px;
+    font-family: 'Geostar Fill';
+}
+.sub__desc{
+    padding: 0 0 50px 0;
+    margin: 0 50px;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+ .form{
+    margin: 0 50px;
+} 
+.name__user{
+    width: 312px;
+    height: 46px;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.name__control {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+.name__control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.name__control:focus + .floating__label,
+.name__control:not(:placeholder-shown) + .floating__label {
+    font-size: 12px;
+    transform: translateY(-22px);
+    color: #fff;
+    padding: 4px 0 0px 0;
+}
+
+.floating__label {
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #fff;
+    transition: all 0.3s;
+    font-family: "Roboto", sans-serif;
+}
+.text__control{
+    width: 390px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all 0.3s;
+    resize: none;
+    margin: 10px 0 0 0;
+    font-family: "Roboto", sans-serif;
+}
+.text__asist, .text__disfraz , .text__drink{
+    margin: 0 0 18px 0;
+}
+.si{
+    margin: 0 0 12px 0;
+}
+.respuesta, .aclaracion{
+    margin: 0 0 24px 0; 
+}
+.respuesta1{
+    margin: 0 0 10px 0;
+}
+
+main{
+    background: #000;
+    background-image: url(/luces\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.submit{
+    background: #997640;
+    border: none;
+    border-radius: 10px;
+    width: 65px;
+    height: 27px;
+    cursor: pointer;
+    margin: 20px 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.recorder{
+    display: flex;
+    flex-direction: column;
+    width: 293px;
+}
+.no__children{
+    font-size: 18px;
+    text-align: center;
+}
+.arrow_rigth, .arrow_left{
+    width: 40px;
+    height: 29px;
+}
+.arrow_rigth{
+    margin-left: auto; 
+    margin-bottom: 10px ;
+}
