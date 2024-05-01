@@ -1,0 +1,14 @@
+@media (max-width: 445px){
+    .title{
+        text-align: center;
+    }
+    .sub__title{
+        text-align: center;
+    }
+    .sub__desc{
+        text-align: center;
+    }
+    .name__control, .text__control{
+        width: 300px;
+    }
+}
