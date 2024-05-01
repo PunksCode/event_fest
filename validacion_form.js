@@ -39,7 +39,7 @@ formulario.addEventListener("submit", (event) => {
     validarCampo(mensajeInput, mensajeInput.nextElementSibling);
 
     validarRadio(asistenciaSiInput, asistenciaNoInput, asistenciaNoInput.nextElementSibling);
-    validarRadio(disfrazSiInput, disfrazNoInput, rifasNoInput.nextElementSibling);
+    validarRadio(disfrazSiInput, disfrazNoInput, disfrazNoInput.nextElementSibling);
     validarRadio(bebidaSiInput, bebidaNoInput, bebidaNoInput.nextElementSibling);
 
     if (!esFormularioValido) {
