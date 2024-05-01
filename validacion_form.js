@@ -5,12 +5,12 @@ formulario.addEventListener("submit", (event) => {
     //variables del form
     const nombreInput = document.getElementById("name");
     const mensajeInput = document.getElementById("mensaje");
-    const regaloSiInput = document.getElementById("regalo_si");
-    const regaloNoInput = document.getElementById("regalo_no");
-    const rifasSiInput = document.getElementById("disfrazSi");
-    const rifasNoInput = document.getElementById("disfrazNo");
-    const tarjetaSiInput = document.getElementById("tarjeta_si");
-    const tarjetaNoInput = document.getElementById("tarjeta_no");
+    const asistenciaSiInput = document.getElementById("asistencia_si");
+    const asistenciaNoInput = document.getElementById("asistencia_no");
+    const disfrazSiInput = document.getElementById("disfrazSi");
+    const disfrazNoInput = document.getElementById("disfrazNo");
+    const bebidaSiInput = document.getElementById("bebida_si");
+    const bebidaNoInput = document.getElementById("bebida_no");
 
     let esFormularioValido = true;
 
@@ -38,9 +38,9 @@ formulario.addEventListener("submit", (event) => {
     validarCampo(nombreInput, nombreInput.nextElementSibling);
     validarCampo(mensajeInput, mensajeInput.nextElementSibling);
 
-    validarRadio(regaloSiInput, regaloNoInput, regaloNoInput.nextElementSibling);
-    validarRadio(rifasSiInput, rifasNoInput, rifasNoInput.nextElementSibling);
-    validarRadio(tarjetaSiInput, tarjetaNoInput, tarjetaNoInput.nextElementSibling);
+    validarRadio(asistenciaSiInput, asistenciaNoInput, asistenciaNoInput.nextElementSibling);
+    validarRadio(disfrazSiInput, disfrazNoInput, rifasNoInput.nextElementSibling);
+    validarRadio(bebidaSiInput, bebidaNoInput, bebidaNoInput.nextElementSibling);
 
     if (!esFormularioValido) {
         return false; // Evitar que el formulario se envíe si no es válido
